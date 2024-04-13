@@ -12,6 +12,9 @@ ROW_COUNT = 6
 COLUMN_COUNT = 7
 ADVERSARY_PIECE = 2
 AI_PIECE = 1
+PLAYER = 0
+
+
 
 
 def create_board():
