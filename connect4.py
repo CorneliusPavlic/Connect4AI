@@ -126,12 +126,7 @@ def minimax(board, depth, alpha, beta, maximizingAI):
         return column, value
     
 
-#NEEDS IMPLEMENTATION
-#
-#
-#
-#
-#
+
 #
 def evaluate_window(window, piece):
     score = 0
@@ -204,7 +199,6 @@ def draw_board(board):
 
 
 board = create_board()
-#print_board(board)
 game_over = False
 turn = PLAYER_TURN
 
@@ -273,7 +267,6 @@ while not game_over:
             turn += 1
             turn = turn % 2
             draw_board(board)
-        #print_board(board)
 
 
         if game_over:
